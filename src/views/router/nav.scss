@@ -1,0 +1,34 @@
+.nav-bar__link--active {
+    background-color: rgb(3, 87, 24);
+}
+
+.nav-bar {
+    width: 100%;
+    background-color: #646262;
+
+    .nav-bar__list {
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+
+        .nav-bar__item {
+            margin-left: 16px;
+
+            &:hover {
+                opacity: 0.5;
+            }
+
+            .nav-bar__link {
+                font-size: 1.6rem;
+                color: #fff;
+                text-decoration: none;
+                display: block;
+                padding: 9px 11px;
+
+
+            }
+        }
+    }
+}

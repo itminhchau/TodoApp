@@ -1,0 +1,36 @@
+.wrap-content-list {
+
+
+    .content-item {
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        padding: 8px 16px;
+
+        &:first-child {
+            border-top: 1px solid #fff;
+            margin-top: 16px;
+
+        }
+
+        .content-item__job {
+            font-size: 1.4rem;
+            font-weight: 400;
+
+        }
+
+        .control {
+            .btn-edit {
+                margin-right: 8px;
+            }
+
+
+        }
+    }
+
+
+
+
+}
